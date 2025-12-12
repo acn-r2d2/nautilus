@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/acn-r2d2/nautilus/compare/v1.0.0...v1.1.0) (2025-12-12)
+
+
+### Features
+
+* install sqlfluff ([52182b2](https://github.com/acn-r2d2/nautilus/commit/52182b26da331df8da295b56801dbdfbd0213826))
+
 # 1.0.0 (2025-12-12)
 
 
