@@ -22,5 +22,5 @@ curl -fsSL --retry 5 --retry-delay 5 https://github.com/mvdan/sh/releases/downlo
 chmod +x /usr/local/bin/shfmt
 
 apt-get install -y python3 python3-pip yamllint shellcheck git
-pip install gitlint --break-system-packages
+pip install gitlint sqlfluff==${SQLFLUFF_VERSION} --break-system-packages
 EOF
