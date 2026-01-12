@@ -7,7 +7,7 @@ variable "VERSION" {
 }
 
 group "all" {
-  targets = ["cicd", "cicd-go", "cicd-k8s", "cicd-maven", "cicd-pnpm"]
+  targets = ["cicd", "cicd-go", "cicd-rust", "cicd-k8s", "cicd-maven", "cicd-pnpm"]
 }
 
 target "cicd" {
