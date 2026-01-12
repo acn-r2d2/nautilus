@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/acn-r2d2/nautilus/compare/v1.2.0...v1.3.0) (2026-01-12)
+
+
+### Features
+
+* add image for rust ([b62d4b8](https://github.com/acn-r2d2/nautilus/commit/b62d4b850546e5801ac2acbc828bc0d516301900))
+
 # [1.2.0](https://github.com/acn-r2d2/nautilus/compare/v1.1.0...v1.2.0) (2025-12-16)
 
 
