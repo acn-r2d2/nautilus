@@ -20,6 +20,11 @@ target "cicd-go" {
   tags = ["${REGISTRY}/cicd-go:${VERSION}"]
 }
 
+target "cicd-rust" {
+  dockerfile = "images/cicd-rust/Dockerfile"
+  tags = ["${REGISTRY}/cicd-rust:${VERSION}"]
+}
+
 target "cicd-k8s" {
   dockerfile = "images/cicd-k8s/Dockerfile"
   tags = ["${REGISTRY}/cicd-k8s:${VERSION}"]
