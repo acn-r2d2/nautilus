@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/acn-r2d2/nautilus/compare/v1.3.1...v1.4.0) (2026-01-12)
+
+
+### Features
+
+* add clippy ([3c75184](https://github.com/acn-r2d2/nautilus/commit/3c75184572d4c48fa802a69cf5e1e3718c33687d))
+
 ## [1.3.1](https://github.com/acn-r2d2/nautilus/compare/v1.3.0...v1.3.1) (2026-01-12)
 
 
