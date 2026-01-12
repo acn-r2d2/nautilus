@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/acn-r2d2/nautilus/compare/v1.3.0...v1.3.1) (2026-01-12)
+
+
+### Bug Fixes
+
+* add target ([2c55a03](https://github.com/acn-r2d2/nautilus/commit/2c55a033a0b1bf8067ee697be337fbc5e5cce8b9))
+
 # [1.3.0](https://github.com/acn-r2d2/nautilus/compare/v1.2.0...v1.3.0) (2026-01-12)
 
 
