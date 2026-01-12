@@ -5,3 +5,5 @@ RUN bash -x /tmp/bricks/install-base-tools.sh && \
     bash -x /tmp/bricks/install-sonarqube-tools.sh && \
     bash -x /tmp/bricks/install-docker-tools.sh && \
     rm -rf /tmp/bricks
+
+RUN rustup component add clippy
