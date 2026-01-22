@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/acn-r2d2/nautilus/compare/v1.4.0...v1.5.0) (2026-01-22)
+
+
+### Bug Fixes
+
+* **deps:** Update golang Docker tag to v1.25.6 ([a49624d](https://github.com/acn-r2d2/nautilus/commit/a49624d35013a4e1a65e39ed7b2353c888900772))
+
+
+### Features
+
+* **deps:** Update Node.js to v24.13.0 ([248c0e7](https://github.com/acn-r2d2/nautilus/commit/248c0e705a4b51cb10d6a88414e6343cba2be7fa))
+
 # [1.4.0](https://github.com/acn-r2d2/nautilus/compare/v1.3.1...v1.4.0) (2026-01-12)
 
 
