@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/acn-r2d2/nautilus/compare/v1.6.0...v1.7.0) (2026-01-28)
+
+
+### Features
+
+* update tools ([cd89780](https://github.com/acn-r2d2/nautilus/commit/cd897802340a94c373f0496bb02c4e2727a64faa))
+
 # [1.6.0](https://github.com/acn-r2d2/nautilus/compare/v1.5.0...v1.6.0) (2026-01-28)
 
 
