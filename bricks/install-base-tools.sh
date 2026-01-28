@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CONFTEST_VERSION=0.65.0
+CONFTEST_VERSION=0.66.0
 
 apt-get update
 apt-get install -y unzip curl git

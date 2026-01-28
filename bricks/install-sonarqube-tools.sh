@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SONAR_SCANNER_CLI_VERSION=7.3.0.5189
+SONAR_SCANNER_CLI_VERSION=8.0.1.6346
 
 curl -fsSL --retry 5 --retry-delay 5 https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-${SONAR_SCANNER_CLI_VERSION}-linux-x64.zip --output /tmp/sonar.zip
 unzip /tmp/sonar.zip -d /tmp/sonar
