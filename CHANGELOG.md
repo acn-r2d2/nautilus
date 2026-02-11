@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/acn-r2d2/nautilus/compare/v1.7.0...v1.8.0) (2026-02-11)
+
+
+### Bug Fixes
+
+* **deps:** Update eclipse-temurin Docker tag to v25.0.2_10-jdk-noble ([dbadc49](https://github.com/acn-r2d2/nautilus/commit/dbadc4904abcf4885abf9667ecc568d941c7e89a))
+
+
+### Features
+
+* **deps:** Update golang Docker tag to v1.26.0 ([5b52197](https://github.com/acn-r2d2/nautilus/commit/5b521978b99bb12f57ab377a80e9bb4458b1c5d8))
+
 # [1.7.0](https://github.com/acn-r2d2/nautilus/compare/v1.6.0...v1.7.0) (2026-01-28)
 
 
