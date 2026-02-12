@@ -1,4 +1,4 @@
-FROM node:24.13.0-trixie
+FROM node:24.13.1-trixie
 
 COPY bricks /tmp/bricks
 RUN bash -x /tmp/bricks/install-base-tools.sh && \
