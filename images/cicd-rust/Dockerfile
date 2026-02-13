@@ -1,4 +1,4 @@
-FROM rust:1.93.0-trixie
+FROM rust:1.93.1-trixie
 
 COPY bricks /tmp/bricks
 RUN bash -x /tmp/bricks/install-base-tools.sh && \
