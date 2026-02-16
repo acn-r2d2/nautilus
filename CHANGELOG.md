@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/acn-r2d2/nautilus/compare/v1.9.1...v1.9.2) (2026-02-16)
+
+
+### Bug Fixes
+
+* **deps:** Update rust Docker tag to v1.93.1 ([18bc648](https://github.com/acn-r2d2/nautilus/commit/18bc6485bddded34cc815ea52df2020a7530318f))
+
 ## [1.9.1](https://github.com/acn-r2d2/nautilus/compare/v1.9.0...v1.9.1) (2026-02-12)
 
 
