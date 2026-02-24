@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/acn-r2d2/nautilus/compare/v1.9.2...v1.10.0) (2026-02-24)
+
+
+### Features
+
+* install ripgrep ([de1c268](https://github.com/acn-r2d2/nautilus/commit/de1c268c31f61d28fa402cef4ca5fe9c12cd1021))
+
 ## [1.9.2](https://github.com/acn-r2d2/nautilus/compare/v1.9.1...v1.9.2) (2026-02-16)
 
 
