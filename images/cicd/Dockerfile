@@ -2,6 +2,7 @@ FROM debian:13-slim
 
 ARG SQLFLUFF_VERSION=4.0.4
 ARG SHFMT_VERSION=3.12.0
+ARG RIPGREP_VERSION=15.1.0
 
 COPY bricks /tmp/bricks
 RUN bash -x /tmp/bricks/install-base-tools.sh && \
@@ -17,4 +18,7 @@ chmod +x /usr/local/bin/shfmt
 
 apt-get install -y python3 python3-pip yamllint shellcheck git
 pip install gitlint sqlfluff==${SQLFLUFF_VERSION} --break-system-packages
+
+curl -LO https://github.com/BurntSushi/ripgrep/releases/download/${RIPGREP_VERSION}/ripgrep_${RIPGREP_VERSION}-1_amd64.deb
+dpkg -i ripgrep_${RIPGREP_VERSION}-1_amd64.deb
 EOF
