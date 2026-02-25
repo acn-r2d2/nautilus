@@ -45,7 +45,7 @@ jobs:
           echo "REGISTRY=ghcr.io/${{ github.repository }}" >> $GITHUB_ENV
           echo "VERSION=${{ steps.semantic.outputs.new_release_version }}" >> $GITHUB_ENV
 
-      - name: Build and Bush Images
+      - name: Build and Push Images
         if: steps.semantic.outputs.new_release_published == 'true'
         uses: docker/bake-action@v6
         with:
