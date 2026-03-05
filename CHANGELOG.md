@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/acn-r2d2/nautilus/compare/v1.12.0...v1.13.0) (2026-03-05)
+
+
+### Features
+
+* **deps:** Update docker/login-action action to v4 ([87e9624](https://github.com/acn-r2d2/nautilus/commit/87e9624629016e5b43f3276bd88d11f7ff2a75b1))
+
 # [1.12.0](https://github.com/acn-r2d2/nautilus/compare/v1.11.0...v1.12.0) (2026-02-25)
 
 
