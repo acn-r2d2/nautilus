@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/acn-r2d2/nautilus/compare/v1.13.0...v1.14.0) (2026-03-05)
+
+
+### Features
+
+* **deps:** Update docker/setup-buildx-action action to v4 ([935215f](https://github.com/acn-r2d2/nautilus/commit/935215f424c1f90764331e3eba57136cf6875635))
+
 # [1.13.0](https://github.com/acn-r2d2/nautilus/compare/v1.12.0...v1.13.0) (2026-03-05)
 
 
