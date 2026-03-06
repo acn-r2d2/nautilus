@@ -47,7 +47,7 @@ jobs:
 
       - name: Build and Push Images
         if: steps.semantic.outputs.new_release_published == 'true'
-        uses: docker/bake-action@v6
+        uses: docker/bake-action@v7
         with:
           files: build.hcl
           targets: all
