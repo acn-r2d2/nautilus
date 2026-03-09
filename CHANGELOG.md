@@ -1,3 +1,16 @@
+# [1.15.0](https://github.com/acn-r2d2/nautilus/compare/v1.14.0...v1.15.0) (2026-03-09)
+
+
+### Bug Fixes
+
+* **deps:** Update golang Docker tag to v1.26.1 ([63882cc](https://github.com/acn-r2d2/nautilus/commit/63882cc8415b4ca00db1fe48cb1d8ee40fa889d0))
+
+
+### Features
+
+* **deps:** Update docker/bake-action action to v7 ([a54ecdd](https://github.com/acn-r2d2/nautilus/commit/a54ecdd28d52c9b19a20f0fc1a950a6a8bb62527))
+* **deps:** Update rust Docker tag to v1.94.0 ([55ee6b2](https://github.com/acn-r2d2/nautilus/commit/55ee6b2aeea6b45e77fe1fc8bfe87c4c0feebd73))
+
 # [1.14.0](https://github.com/acn-r2d2/nautilus/compare/v1.13.0...v1.14.0) (2026-03-05)
 
 
