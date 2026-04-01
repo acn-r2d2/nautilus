@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CONFTEST_VERSION=0.66.0
+CONFTEST_VERSION=0.67.1
 RIPGREP_VERSION=15.1.0
 
 apt-get update
