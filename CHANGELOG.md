@@ -1,3 +1,11 @@
+# [1.17.0](https://github.com/acn-r2d2/nautilus/compare/v1.16.1...v1.17.0) (2026-04-17)
+
+
+### Features
+
+* **deps:** Update Node.js to v24.15.0 ([fabc371](https://github.com/acn-r2d2/nautilus/commit/fabc371eec9b06c8455309e30ebcf317edac379e))
+* **deps:** Update rust Docker tag to v1.95.0 ([2f33508](https://github.com/acn-r2d2/nautilus/commit/2f3350848bcfc8373cebec6025aeb5ca737570a4))
+
 ## [1.16.1](https://github.com/acn-r2d2/nautilus/compare/v1.16.0...v1.16.1) (2026-04-17)
 
 
