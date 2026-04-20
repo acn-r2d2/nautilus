@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/acn-r2d2/nautilus/compare/v1.18.0...v1.19.0) (2026-04-20)
+
+
+### Features
+
+* install latest stable version ([46b952d](https://github.com/acn-r2d2/nautilus/commit/46b952d65e12a955a6179a46c4659d1044c3e70d))
+
 # [1.18.0](https://github.com/acn-r2d2/nautilus/compare/v1.17.0...v1.18.0) (2026-04-17)
 
 
