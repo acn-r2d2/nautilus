@@ -7,4 +7,4 @@ RUN bash -x /tmp/bricks/install-base-tools.sh && \
     rm -rf /tmp/bricks
 
 RUN corepack enable
-RUN corepack install pnpm --global
+RUN corepack install pnpm@latest --global
