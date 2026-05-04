@@ -1,3 +1,10 @@
+## [1.19.1](https://github.com/acn-r2d2/nautilus/compare/v1.19.0...v1.19.1) (2026-05-04)
+
+
+### Bug Fixes
+
+* **deps:** Update eclipse-temurin Docker tag to v25.0.3_9-jdk-noble ([7ea3dd8](https://github.com/acn-r2d2/nautilus/commit/7ea3dd8543f1446fbfba258a0bcb3a8fcb81e53a))
+
 # [1.19.0](https://github.com/acn-r2d2/nautilus/compare/v1.18.0...v1.19.0) (2026-04-20)
 
 
