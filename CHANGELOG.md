@@ -1,3 +1,10 @@
+## [1.19.2](https://github.com/acn-r2d2/nautilus/compare/v1.19.1...v1.19.2) (2026-05-11)
+
+
+### Bug Fixes
+
+* **deps:** Update golang Docker tag to v1.26.3 ([db86b0d](https://github.com/acn-r2d2/nautilus/commit/db86b0d43026a232adbc9c02b4155db2f8b2cd87))
+
 ## [1.19.1](https://github.com/acn-r2d2/nautilus/compare/v1.19.0...v1.19.1) (2026-05-04)
 
 
