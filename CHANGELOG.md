@@ -1,3 +1,11 @@
+# [1.20.0](https://github.com/acn-r2d2/nautilus/compare/v1.19.2...v1.20.0) (2026-05-20)
+
+
+### Features
+
+* update helm ([5cd5e9c](https://github.com/acn-r2d2/nautilus/commit/5cd5e9cb9710f8af3894e156ab02cbc75ba1f79f))
+* update sqlfluff ([92cd72d](https://github.com/acn-r2d2/nautilus/commit/92cd72db5f5e1635d7b1009011d35b7e0512b807))
+
 ## [1.19.2](https://github.com/acn-r2d2/nautilus/compare/v1.19.1...v1.19.2) (2026-05-11)
 
 
