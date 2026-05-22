@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/acn-r2d2/nautilus/compare/v1.20.0...v1.21.0) (2026-05-22)
+
+
+### Features
+
+* install git-cliff ([a24b484](https://github.com/acn-r2d2/nautilus/commit/a24b484233ccc064b25211ebfe57b58f1b47f0d3))
+
 # [1.20.0](https://github.com/acn-r2d2/nautilus/compare/v1.19.2...v1.20.0) (2026-05-20)
 
 
