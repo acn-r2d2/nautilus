@@ -1,3 +1,10 @@
+## [1.23.2](https://github.com/acn-r2d2/nautilus/compare/v1.23.1...v1.23.2) (2026-06-08)
+
+
+### Bug Fixes
+
+* revert back to 1.95 ([4339063](https://github.com/acn-r2d2/nautilus/commit/4339063b2c9b0f13949392800fe47f26957d50d2))
+
 ## [1.23.1](https://github.com/acn-r2d2/nautilus/compare/v1.23.0...v1.23.1) (2026-06-07)
 
 
