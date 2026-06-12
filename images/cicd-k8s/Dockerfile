@@ -2,7 +2,7 @@ FROM debian:13-slim
 
 ARG HELM_VERSION=4.2.0
 ARG KUBE_SCORE_VERSION=1.20.0
-ARG KUBECONFORM_VERSION=0.7.0
+ARG KUBECONFORM_VERSION=0.8.0
 
 COPY bricks /tmp/bricks
 RUN bash -x /tmp/bricks/install-base-tools.sh && \
