@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/acn-r2d2/nautilus/compare/v1.23.2...v1.24.0) (2026-06-12)
+
+
+### Features
+
+* update tools ([0005735](https://github.com/acn-r2d2/nautilus/commit/000573543b113796627b8aceefbd381daf4a40bf))
+
 ## [1.23.2](https://github.com/acn-r2d2/nautilus/compare/v1.23.1...v1.23.2) (2026-06-08)
 
 
