@@ -1,3 +1,10 @@
+## [1.25.1](https://github.com/acn-r2d2/nautilus/compare/v1.25.0...v1.25.1) (2026-06-25)
+
+
+### Bug Fixes
+
+* update helm ([8de729b](https://github.com/acn-r2d2/nautilus/commit/8de729b790aa9f3ac7ba6fd4849f8e42972c52af))
+
 # [1.25.0](https://github.com/acn-r2d2/nautilus/compare/v1.24.0...v1.25.0) (2026-06-25)
 
 
