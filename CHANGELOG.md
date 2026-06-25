@@ -1,3 +1,11 @@
+# [1.25.0](https://github.com/acn-r2d2/nautilus/compare/v1.24.0...v1.25.0) (2026-06-25)
+
+
+### Features
+
+* **deps:** Update actions/checkout action to v7 ([b77efad](https://github.com/acn-r2d2/nautilus/commit/b77efad5a34f3f4fb709388a4fede7a0790274bc))
+* **deps:** Update Node.js to v24.17.0 ([1d7901f](https://github.com/acn-r2d2/nautilus/commit/1d7901f6f4c19674def65eb98b059d5c85900a97))
+
 # [1.24.0](https://github.com/acn-r2d2/nautilus/compare/v1.23.2...v1.24.0) (2026-06-12)
 
 
