@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/acn-r2d2/nautilus/compare/v1.25.1...v1.26.0) (2026-07-06)
+
+
+### Features
+
+* **deps:** Update Node.js to v24.18.0 ([7a92567](https://github.com/acn-r2d2/nautilus/commit/7a925673b0128b80d92e54c0b217c9401e906e5d))
+
 ## [1.25.1](https://github.com/acn-r2d2/nautilus/compare/v1.25.0...v1.25.1) (2026-06-25)
 
 
