@@ -1,4 +1,4 @@
-FROM golang:1.26.4-trixie
+FROM golang:1.26.5-trixie
 
 COPY bricks /tmp/bricks
 RUN bash -x /tmp/bricks/install-base-tools.sh && \
