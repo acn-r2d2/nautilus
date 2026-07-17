@@ -1,3 +1,11 @@
+# [1.27.0](https://github.com/acn-r2d2/nautilus/compare/v1.26.1...v1.27.0) (2026-07-17)
+
+
+### Features
+
+* update helm ([027c952](https://github.com/acn-r2d2/nautilus/commit/027c952c48b2a79916d7c55ed0c483060830924f))
+* update ripgrep ([13a5fbb](https://github.com/acn-r2d2/nautilus/commit/13a5fbbcc6bdbff5a429c921810d26853aa8ea12))
+
 ## [1.26.1](https://github.com/acn-r2d2/nautilus/compare/v1.26.0...v1.26.1) (2026-07-09)
 
 
