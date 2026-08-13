@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-HADOLINT_VERSION=2.14.0
+HADOLINT_VERSION=2.15.1
 
 if [ -f /etc/os-release ]; then
     . /etc/os-release

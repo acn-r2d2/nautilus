@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CONFTEST_VERSION=0.68.2
+CONFTEST_VERSION=0.69.0
 RIPGREP_VERSION=15.2.0
 GIT_CLIFF_VERSION=2.13.1
 
