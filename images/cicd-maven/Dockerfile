@@ -1,4 +1,4 @@
-FROM eclipse-temurin:25.0.3_9-jdk-noble
+FROM eclipse-temurin:25.0.4_7-jdk-noble
 
 COPY bricks /tmp/bricks
 RUN bash -x /tmp/bricks/install-base-tools.sh && \
