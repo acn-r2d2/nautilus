@@ -1,7 +1,7 @@
 FROM debian:13-slim
 
 ARG SQLFLUFF_VERSION=4.3.0
-ARG SHFMT_VERSION=3.13.1
+ARG SHFMT_VERSION=3.14.0
 
 COPY bricks /tmp/bricks
 RUN bash -x /tmp/bricks/install-base-tools.sh && \
