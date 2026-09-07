@@ -6,5 +6,6 @@ RUN bash -x /tmp/bricks/install-base-tools.sh && \
     bash -x /tmp/bricks/install-docker-tools.sh && \
     rm -rf /tmp/bricks
 
-RUN corepack enable
-RUN corepack install pnpm@latest --global
+RUN corepack enable && \
+    corepack install pnpm@latest --global && \
+    pnpm --version
