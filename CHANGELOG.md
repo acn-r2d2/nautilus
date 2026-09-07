@@ -1,3 +1,10 @@
+## [1.33.1](https://github.com/acn-r2d2/nautilus/compare/v1.33.0...v1.33.1) (2026-09-07)
+
+
+### Bug Fixes
+
+* fix pnpm ([f8c6c13](https://github.com/acn-r2d2/nautilus/commit/f8c6c131e882db6ce5a70142d20746c486dd3b98))
+
 # [1.33.0](https://github.com/acn-r2d2/nautilus/compare/v1.32.0...v1.33.0) (2026-09-07)
 
 
