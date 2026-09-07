@@ -3,7 +3,7 @@ set -euo pipefail
 
 CONFTEST_VERSION=0.69.0
 RIPGREP_VERSION=15.2.0
-GIT_CLIFF_VERSION=2.13.1
+GIT_CLIFF_VERSION=2.14.1
 
 apt-get update
 apt-get install -y unzip curl git
