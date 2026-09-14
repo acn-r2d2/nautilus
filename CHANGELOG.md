@@ -1,3 +1,15 @@
+# [1.34.0](https://github.com/acn-r2d2/nautilus/compare/v1.33.1...v1.34.0) (2026-09-14)
+
+
+### Bug Fixes
+
+* **deps:** Update rust Docker tag to v1.98.1 ([ec565c6](https://github.com/acn-r2d2/nautilus/commit/ec565c678d1ea20ae42c5874a116e268d51065e1))
+
+
+### Features
+
+* **deps:** Update Node.js to v24.21.0 ([f999491](https://github.com/acn-r2d2/nautilus/commit/f999491f0800f4e49d668a5a9fcf482c2c7baad5))
+
 ## [1.33.1](https://github.com/acn-r2d2/nautilus/compare/v1.33.0...v1.33.1) (2026-09-07)
 
 
