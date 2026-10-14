@@ -1,3 +1,10 @@
+## [1.36.1](https://github.com/acn-r2d2/nautilus/compare/v1.36.0...v1.36.1) (2026-10-14)
+
+
+### Bug Fixes
+
+* **deps:** Update cycjimmy/semantic-release-action action to v8.0.2 ([47b18bb](https://github.com/acn-r2d2/nautilus/commit/47b18bbc4b036cb5dfd2c8a66b02e75eaf068aa5))
+
 # [1.36.0](https://github.com/acn-r2d2/nautilus/compare/v1.35.0...v1.36.0) (2026-10-14)
 
 
