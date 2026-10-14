@@ -1,3 +1,15 @@
+# [1.36.0](https://github.com/acn-r2d2/nautilus/compare/v1.35.0...v1.36.0) (2026-10-14)
+
+
+### Bug Fixes
+
+* **deps:** Update golang Docker tag to v1.27.2 ([2149653](https://github.com/acn-r2d2/nautilus/commit/2149653d01537db0b8773600749399c6d1d3d712))
+
+
+### Features
+
+* **deps:** Update cycjimmy/semantic-release-action action to v8 ([4bda0cf](https://github.com/acn-r2d2/nautilus/commit/4bda0cfcd033637551774206ff2c13571663e88c))
+
 # [1.35.0](https://github.com/acn-r2d2/nautilus/compare/v1.34.0...v1.35.0) (2026-10-05)
 
 
