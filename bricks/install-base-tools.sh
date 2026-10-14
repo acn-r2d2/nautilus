@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-CONFTEST_VERSION=0.69.0
+CONFTEST_VERSION=0.71.1
 RIPGREP_VERSION=15.2.0
-GIT_CLIFF_VERSION=2.14.1
+GIT_CLIFF_VERSION=2.14.2
 
 apt-get update
 apt-get install -y unzip curl git
