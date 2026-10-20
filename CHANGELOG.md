@@ -1,3 +1,10 @@
+# [1.39.0](https://github.com/acn-r2d2/nautilus/compare/v1.38.0...v1.39.0) (2026-10-20)
+
+
+### Features
+
+* update helm tool ([b73512e](https://github.com/acn-r2d2/nautilus/commit/b73512e4f3d2a677c3ce9e73d88de91c439c8364))
+
 # [1.38.0](https://github.com/acn-r2d2/nautilus/compare/v1.37.0...v1.38.0) (2026-10-20)
 
 
