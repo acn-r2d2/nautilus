@@ -1,3 +1,10 @@
+## [1.39.1](https://github.com/acn-r2d2/nautilus/compare/v1.39.0...v1.39.1) (2026-10-27)
+
+
+### Bug Fixes
+
+* **deps:** Update Node.js to v24.22.1 ([0576b48](https://github.com/acn-r2d2/nautilus/commit/0576b48da8a311252325e8c7c2f7423bee0a59f5))
+
 # [1.39.0](https://github.com/acn-r2d2/nautilus/compare/v1.38.0...v1.39.0) (2026-10-20)
 
 
