@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
+# sonar-scanner (from the tools image).
+# Optional: only call this script for images that need SonarQube.
 set -euo pipefail
 
-SONAR_SCANNER_CLI_VERSION=8.1.0.6389
+source "$(dirname "${BASH_SOURCE[0]}")/tools-image.sh"
+require_tools_image
 
-curl -fsSL --retry 5 --retry-delay 5 https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-${SONAR_SCANNER_CLI_VERSION}-linux-x64.zip --output /tmp/sonar.zip
-unzip /tmp/sonar.zip -d /tmp/sonar
-mv /tmp/sonar/sonar-scanner* /opt/sonar-scanner
-rm -rf /tmp/sonar*
-ln -s /opt/sonar-scanner/bin/sonar-scanner /usr/local/bin/sonar-scanner
+# sonar-scanner ships its own JRE, so it is copied as a whole directory
+cp -a "${TOOLS_DIR}/opt/sonar-scanner" /opt/sonar-scanner
+ln -sf /opt/sonar-scanner/bin/sonar-scanner /usr/local/bin/sonar-scanner
+
+# Smoke test
+sonar-scanner --version

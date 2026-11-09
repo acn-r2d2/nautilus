@@ -1,22 +1,23 @@
 #!/usr/bin/env bash
+# Base setup for every image: apt basics plus conftest, rg and git-cliff.
+#
+# Extra tools from the tools image can be passed as arguments:
+#   install-base-tools.sh                 # base only
+#   install-base-tools.sh shfmt           # base + shfmt
+#   install-base-tools.sh helm kube-score kubeconform
 set -euo pipefail
 
-CONFTEST_VERSION=0.71.1
-RIPGREP_VERSION=15.2.0
-GIT_CLIFF_VERSION=2.14.2
+source "$(dirname "${BASH_SOURCE[0]}")/tools-image.sh"
+require_tools_image
 
+# The apt lists are kept on purpose: later RUN steps (e.g. apt-get install maven)
+# rely on them.
 apt-get update
-apt-get install -y unzip curl git
+apt-get install -y ca-certificates curl git unzip
 
-curl -fsSL --retry 5 --retry-delay 5 "https://github.com/open-policy-agent/conftest/releases/download/v${CONFTEST_VERSION}/conftest_${CONFTEST_VERSION}_linux_x86_64.tar.gz" -o /usr/local/bin/conftest.tar.gz
-tar -xzf /usr/local/bin/conftest.tar.gz -C /usr/local/bin conftest
-chmod +x /usr/local/bin/conftest
-rm -f /usr/local/bin/conftest.tar.gz
+install_tools conftest rg git-cliff "$@"
 
-curl -LO https://github.com/BurntSushi/ripgrep/releases/download/${RIPGREP_VERSION}/ripgrep_${RIPGREP_VERSION}-1_amd64.deb
-dpkg -i ripgrep_${RIPGREP_VERSION}-1_amd64.deb
-
-curl -fsSL --retry 5 --retry-delay 5 "https://github.com/orhun/git-cliff/releases/download/v${GIT_CLIFF_VERSION}/git-cliff-${GIT_CLIFF_VERSION}-x86_64-unknown-linux-gnu.tar.gz" -o /usr/local/bin/git-cliff.tar.gz
-tar -xvzf /usr/local/bin/git-cliff.tar.gz -C /usr/local/bin
-ln -s /usr/local/bin/git-cliff-${GIT_CLIFF_VERSION}/git-cliff /usr/local/bin/git-cliff
-rm -f /usr/local/bin/git-cliff.tar.gz
+# Smoke test: fails the build if a binary does not run on this base image
+conftest --version
+rg --version
+git-cliff --version
