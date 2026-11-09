@@ -1,3 +1,11 @@
+# [1.41.0](https://github.com/acn-r2d2/nautilus/compare/v1.40.0...v1.41.0) (2026-11-09)
+
+
+### Features
+
+* download tools once in a shared tools image ([453e0ec](https://github.com/acn-r2d2/nautilus/commit/453e0ecd22d5b1086397a62d12bf39a0d92c59c1))
+* update tools ([07b70d8](https://github.com/acn-r2d2/nautilus/commit/07b70d87f2dffd3e5c628f6bf55c14f066057ff1))
+
 # [1.40.0](https://github.com/acn-r2d2/nautilus/compare/v1.39.1...v1.40.0) (2026-11-09)
 
 
