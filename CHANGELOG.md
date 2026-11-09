@@ -1,3 +1,17 @@
+# [1.40.0](https://github.com/acn-r2d2/nautilus/compare/v1.39.1...v1.40.0) (2026-11-09)
+
+
+### Bug Fixes
+
+* **deps:** Update cycjimmy/semantic-release-action action to v8.1.4 ([fa7c99d](https://github.com/acn-r2d2/nautilus/commit/fa7c99db17dc5c83bd7176245386b11a47805b33))
+* **deps:** Update eclipse-temurin Docker tag to v25.0.5_8-jdk-noble ([ba3aa5e](https://github.com/acn-r2d2/nautilus/commit/ba3aa5e010a84f1fcc3706d45fd0ce915429468e))
+* remove corepack ([485b5ec](https://github.com/acn-r2d2/nautilus/commit/485b5ec54a1d3418e8be16781e53e0594f410b23))
+
+
+### Features
+
+* **deps:** Update Node.js to v26 ([568ff8a](https://github.com/acn-r2d2/nautilus/commit/568ff8ac5b21adfffd1ffcf039d133c97fa06157))
+
 ## [1.39.1](https://github.com/acn-r2d2/nautilus/compare/v1.39.0...v1.39.1) (2026-10-27)
 
 
