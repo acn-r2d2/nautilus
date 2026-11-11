@@ -1,3 +1,10 @@
+# [1.43.0](https://github.com/acn-r2d2/nautilus/compare/v1.42.0...v1.43.0) (2026-11-11)
+
+
+### Features
+
+* install tool ([37b1c09](https://github.com/acn-r2d2/nautilus/commit/37b1c09bb634ea121cc32fc5ec435142928048a6))
+
 # [1.42.0](https://github.com/acn-r2d2/nautilus/compare/v1.41.0...v1.42.0) (2026-11-11)
 
 
