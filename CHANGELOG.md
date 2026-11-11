@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/acn-r2d2/nautilus/compare/v1.41.0...v1.42.0) (2026-11-11)
+
+
+### Features
+
+* add ryl tool ([97b9315](https://github.com/acn-r2d2/nautilus/commit/97b931513570bc6fa9dbb4082d81b02f64e9da1c))
+
 # [1.41.0](https://github.com/acn-r2d2/nautilus/compare/v1.40.0...v1.41.0) (2026-11-09)
 
 
