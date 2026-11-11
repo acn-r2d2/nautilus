@@ -17,6 +17,7 @@ ARG SHFMT_VERSION=3.14.1
 ARG HELM_VERSION=4.3.1
 ARG KUBE_SCORE_VERSION=1.20.0
 ARG KUBECONFORM_VERSION=0.8.0
+ARG RYL_VERSION=0.29.0
 
 SHELL ["/bin/bash", "-euo", "pipefail", "-c"]
 
@@ -77,6 +78,11 @@ RUN source /usr/local/lib/lib.sh \
  && tar -xzf /tmp/kubeconform.tar.gz -C /rootfs/usr/local/bin kubeconform \
  && rm /tmp/kubeconform.tar.gz
 
+RUN source /usr/local/lib/lib.sh \
+ && download "https://github.com/owenlamont/ryl/releases/download/v${RYL_VERSION}/ryl-x86_64-unknown-linux-gnu.tar.gz" /tmp/ryl.tar.gz \
+ && tar -xzf /tmp/ryl.tar.gz -C /rootfs/usr/local/bin ryl \
+ && rm /tmp/ryl.tar.gz
+
 # Smoke test: fails the build if an archive layout or asset name is wrong
 RUN export PATH="/rootfs/usr/local/bin:${PATH}" \
  && conftest --version \
@@ -87,6 +93,7 @@ RUN export PATH="/rootfs/usr/local/bin:${PATH}" \
  && helm version --short \
  && kube-score version \
  && kubeconform -v \
+ && ryl --version \
  && /rootfs/opt/sonar-scanner/bin/sonar-scanner --version
 
 # Final stage contains only the finished file tree

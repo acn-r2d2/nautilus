@@ -12,6 +12,6 @@ RUN --mount=type=bind,source=bricks,target=/tmp/bricks \
 RUN bash -x <<EOT
 set -euo pipefail
 
-apt-get install -y python3 python3-pip yamllint shellcheck git
+apt-get install -y python3 python3-pip shellcheck git
 pip install gitlint sqlfluff==${SQLFLUFF_VERSION} --break-system-packages
 EOT
