@@ -1,4 +1,4 @@
-FROM golang:1.27.3-trixie
+FROM golang:1.27.4-trixie
 
 # Base tools come from the tools image (see images/tools/Dockerfile)
 RUN --mount=type=bind,source=bricks,target=/tmp/bricks \
