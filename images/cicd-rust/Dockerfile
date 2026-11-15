@@ -1,4 +1,4 @@
-FROM rust:1.99.1-trixie
+FROM rust:1.100.0-trixie
 
 # Base tools come from the tools image (see images/tools/Dockerfile)
 RUN --mount=type=bind,source=bricks,target=/tmp/bricks \
