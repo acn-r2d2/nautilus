@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/acn-r2d2/nautilus/compare/v1.44.0...v1.45.0) (2026-11-19)
+
+
+### Features
+
+* upadte tools ([c58bdca](https://github.com/acn-r2d2/nautilus/commit/c58bdcab91081bcdc5a358dd407fa8aab6d8d779))
+
 # [1.44.0](https://github.com/acn-r2d2/nautilus/compare/v1.43.0...v1.44.0) (2026-11-15)
 
 
