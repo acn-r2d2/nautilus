@@ -1,4 +1,4 @@
-FROM eclipse-temurin:25.0.5_8-jdk-noble
+FROM eclipse-temurin:25.0.5.1_2-jdk-noble
 
 # Base tools come from the tools image (see images/tools/Dockerfile)
 RUN --mount=type=bind,source=bricks,target=/tmp/bricks \
